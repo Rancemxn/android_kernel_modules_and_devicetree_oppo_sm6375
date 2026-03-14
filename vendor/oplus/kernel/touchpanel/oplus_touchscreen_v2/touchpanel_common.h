@@ -108,12 +108,12 @@
 #define SMOOTH_LEVEL_NUM            6
 #define SENSITIVE_LEVEL_NUM         6
 
-#define PINCTRL_STATE_SPI_ACTIVE    "oplus_spi_active"
-#define PINCTRL_STATE_INT_ACTIVE    "oplus_int_active"
-#define PINCTRL_STATE_RST_ACTIVE    "oplus_reset_active"
-#define PINCTRL_STATE_SPI_SUSPEND   "oplus_spi_suspend"
-#define PINCTRL_STATE_INT_SUSPEND   "oplus_int_suspend"
-#define PINCTRL_STATE_RST_SUSPEND   "oplus_reset_suspend"
+#define PINCTRL_STATE_SPI_ACTIVE    "qupv3_se2_spi_active"
+#define PINCTRL_STATE_INT_ACTIVE    "ts_int_active"
+#define PINCTRL_STATE_RST_ACTIVE    "ts_reset_active"
+#define PINCTRL_STATE_SPI_SUSPEND   "qupv3_se2_spi_sleep"
+#define PINCTRL_STATE_INT_SUSPEND   "ts_int_suspend1"
+#define PINCTRL_STATE_RST_SUSPEND   "ts_reset_suspend1"
 
 #define SYNAPTICS_PREFIX    "SY_"
 #define GOODIX_PREFIX       "GT_"
