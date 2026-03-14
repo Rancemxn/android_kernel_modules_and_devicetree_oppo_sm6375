@@ -3867,9 +3867,6 @@ static void lcd_on_event(struct touchpanel_data *ts)
 #endif
 	} else if (ts->tp_resume_order == LCD_TP_RESUME) {
 		tp_resume(ts->dev);
-		if (!(ts->tp_ic_type == TYPE_TDDI_TCM && ts->is_noflash_ic)) {
-			enable_irq(ts->irq);
-		}
 	}
 };
 
